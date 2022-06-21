@@ -1,5 +1,6 @@
 """Class for BME680 sensor."""
 import time
+
 import board
 from adafruit_bme680 import Adafruit_BME680_I2C
 
@@ -112,7 +113,7 @@ class BME680(SensorBase):
 
 if __name__ == "__main__":
     temp_offset = 5
-    bme = BME680(temperature_offset=5)
+    bme = BME680(temperature_offset=temp_offset)
 
     print(f"One data sample: {bme.get_data()}")
 

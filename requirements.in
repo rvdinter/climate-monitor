@@ -1,2 +1,5 @@
 adafruit-circuitpython-pm25==2.1.9
 adafruit-circuitpython-bme680==3.4.5
+adafruit-circuitpython-epd==2.10.4
+pillow==9.1.1
+urllib3==1.26.9

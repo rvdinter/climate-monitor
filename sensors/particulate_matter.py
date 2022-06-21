@@ -1,5 +1,6 @@
 """Class for PM sensor."""
 import time
+
 import board
 from adafruit_pm25.uart import PM25_UART
 from busio import UART
